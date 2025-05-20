@@ -8,7 +8,7 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:8.10.0'
-        classpath 'org.xtext:xtext-android-gradle-plugin:2.0.8'
+        classpath 'org.xtext:xtext-android-gradle-plugin:2.0.9-alpha3'
     }
 }
 
