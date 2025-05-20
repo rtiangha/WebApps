@@ -16,6 +16,10 @@ buildscript {
 apply plugin: 'com.android.application'
 apply plugin: 'org.xtext.xtend'
 
+xtend {
+    applyJavaPlugin = false
+}
+
 repositories {
     jcenter()
     maven {
