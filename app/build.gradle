@@ -8,12 +8,12 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:8.10.0'
-        classpath 'org.xtext:xtext-android-gradle-plugin:2.0.9-alpha.3'
+        classpath 'org.xtext.xtend:org.xtext.xtend.gradle.plugin:4.0.0'
     }
 }
 
 apply plugin: 'com.android.application'
-apply plugin: 'org.xtext.android.xtend'
+apply plugin: 'org.xtext.xtend'
 
 repositories {
     jcenter()
