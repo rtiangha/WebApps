@@ -1,0 +1,3 @@
+[submodule "libs/Xtendroid"]
+	path = libs/Xtendroid
+	url = https://github.com/tobykurien/Xtendroid.git

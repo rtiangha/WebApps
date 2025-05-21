@@ -5,7 +5,6 @@ build/
 xtend-gen
 keystore.properties
 aarDependencies
-libs/
 .settings
 *~
 local.properties

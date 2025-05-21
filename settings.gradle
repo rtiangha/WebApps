@@ -1,1 +1,5 @@
 include ':app'
+include ':Xtendroid'
+project(':Xtendroid').projectDir = file('libs/Xtendroid')
+
+
