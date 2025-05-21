@@ -26,7 +26,7 @@
     ]]></string>
 
     <string name="export_confirm"><![CDATA[
-       	AVERTISSEMENT : l\'export de la base de données n\'est PAS chiffré ! Quiconque s'empare de 
+       	AVERTISSEMENT : l\'export de la base de données n\'est PAS chiffré ! Quiconque s\'empare de 
 	la base de données exportée peut facilement reprendre vos comptes. Dans ce cas, vous devez 
  	vous connecter à tous vos sites Web concernés et vous déconnecter de toutes les autres sessions. 
 	Continuez à vos riques et périls ! 
@@ -99,7 +99,7 @@
     <string name="title_hide_actionbar">Masquer la barre d\'action</string>
     <string name="summary_hide_actionbar">Masquer complètement la barre d\'action. Appuyez longuement sur un espace vide pour l\'afficher.</string>
     <string name="title_shortcut_actionbar">Masquer uniquement pour les raccourcis</string>
-    <string name="summary_shortcut_actionbar">Masque la barre d\'action uniquement lorsqu'elle est lancée à partir d\'un raccourci</string>
+    <string name="summary_shortcut_actionbar">Masque la barre d\'action uniquement lorsqu\'elle est lancée à partir d\'un raccourci</string>
     <string name="title_secure_windows">Empêcher les captures d\'écran</string>
     <string name="summary_secure_windows">Empêcher les captures d\'écran et le contenu des Webapps d\'apparaître dans Récents</string>
 
