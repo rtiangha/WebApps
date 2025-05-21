@@ -40,6 +40,9 @@ android {
         compile 'org.eclipse.xtend:org.eclipse.xtend.lib:2.13.0'
         compile 'com.github.tobykurien:xtendroid:0.13'
         compile 'com.github.bumptech.glide:glide:3.8.0'
+        compile 'javax.xml.bind:jaxb-api:2.3.1'
+        compile 'com.sun.xml.bind:jaxb-core:2.3.0.1'
+        compile 'com.sun.xml.bind:jaxb-impl:2.3.4'
 
         testCompile 'junit:junit:4.13'
         androidTestCompile 'com.android.support.test:runner:1.0.2'
