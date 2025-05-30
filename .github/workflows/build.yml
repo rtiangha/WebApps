@@ -64,11 +64,11 @@ jobs:
           java-version: '8'
           cache: 'gradle'
           check-latest: true
-      - name: Install Android NDK r28b
+      - name: Install Android NDK r14b
         uses: nttld/setup-ndk@v1
         id: setup-ndk
         with:
-          ndk-version: r28b
+          ndk-version: r14b
           link-to-sdk: true
       - name: Build
         run: ANDROID_NDK_HOME=${{ steps.setup-ndk.outputs.ndk-path }} JAVA_HOME=$JAVA_HOME_11_X64 ./build.sh
