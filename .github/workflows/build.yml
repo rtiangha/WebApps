@@ -64,8 +64,16 @@ jobs:
           java-version: '11'
           cache: 'gradle'
           check-latest: true
+      - name: Install Android NDK r28b
+        uses: nttld/setup-ndk@v1
+        id: setup-ndk
+        with:
+          ndk-version: r28b
+          link-to-sdk: true
       - name: Build
-        run: JAVA_HOME=$JAVA_HOME_11_X64 ./build.sh
+        run: ANDROID_NDK_HOME=${{ steps.setup-ndk.outputs.ndk-path }} JAVA_HOME=$JAVA_HOME_11_X64 ./build.sh
+        env:
+          ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
       - name: Sign app APK
         uses: r0adkll/sign-android-release@v1
         id: sign_app
