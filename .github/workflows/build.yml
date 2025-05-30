@@ -68,11 +68,11 @@ jobs:
         uses: android-actions/setup-android@v3
         with:
           cmdline-tools-version: 9862592 
-      - name: Install Android NDK r18b
+      - name: Install Android NDK r17c
         uses: nttld/setup-ndk@v1
         id: setup-ndk
         with:
-          ndk-version: r18b
+          ndk-version: r17c
           link-to-sdk: true
       - name: Build
         run: ANDROID_NDK_HOME=${{ steps.setup-ndk.outputs.ndk-path }} JAVA_HOME=$JAVA_HOME_11_X64 ./build.sh
