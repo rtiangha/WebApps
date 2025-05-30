@@ -8,7 +8,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.0'
-        classpath 'jakarta.activation:jakarta.activation-api:1.2.2'
+        classpath 'com.sun.activation:javax.activation:1.2.0'
         classpath 'javax.xml.bind:jaxb-api:2.2.12'
         classpath 'com.sun.xml.bind:jaxb-core:2.2.11'
         classpath 'com.sun.xml.bind:jaxb-impl:2.2.11'
