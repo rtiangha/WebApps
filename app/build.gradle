@@ -9,7 +9,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.2'
         classpath 'org.xtext:xtext-android-gradle-plugin:2.0.8'
-        classpath 'com.sun.activation:javax.activation:1.2.0'
+        classpath 'javax.activation:activation:1.1.1'
         classpath 'javax.xml.bind:jaxb-api:2.2.12'
         classpath 'com.sun.xml.bind:jaxb-core:2.2.11'
         classpath 'com.sun.xml.bind:jaxb-impl:2.2.11'
